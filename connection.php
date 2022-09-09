@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "rahul";
-$dbname = "cleaning";
+$dbname = "delhi_gram";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -11,8 +11,8 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-define("SITEURL", "http://localhost/cleaning/");
-define("IMG", "http://localhost/cleaning/assets/images/user/");
+define("SITEURL", "http://localhost/newspaper/");
+define("IMG", "http://localhost/newspaper/images/user/");
 
 
 ?>
