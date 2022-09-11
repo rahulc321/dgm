@@ -95,7 +95,7 @@ true;
                 <li><a href="aboutus.php">About Us</a></li>
                 <li><a href="joinus.php">Join Us</a></li>
                 <li><a href="users.php">Users</a></li>
-                <li><a href="newspaper.php">News Paper</a></li>            
+                <li><a href="gallery.php">News Paper</a></li>            
                 <li class="last"><a href="joinus.php">Contact Us</a></li>
                 
             </ul>

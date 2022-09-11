@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 }
 
 define("SITEURL", "http://localhost/newspaper/");
-define("IMG", "http://localhost/newspaper/images/user/");
+define("IMG", "http://localhost/newspaper/admin/news/");
 
 
 ?>
