@@ -1,179 +1,86 @@
-    <div class="row space-bot">
-        <div class="c12">
-            <div class="wrapaction">
-                <div class="c9">
-                    <h1 class="subtitles">Have a question or need a concerns?</h1>
-                     If you have any questions or concerns, please contact Mr. Than Singh Yadav @ 9811 570 416 or E-mail us <a href="mailto:delhigrampanchayatsangh@gmail.com">delhigrampanchayatsangh@gmail.com</a> we will assist you.
-                </div>
-                <div class="c3 text-center" style="margin-top:40px;">
-                    <div class="actionbutton">
-                        <a href="joinus.php" target="_self" title="Contact Us"><i class="icon-hand-up"></i> CONTACT NOW</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-</div>
+<!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h1 class="text-white mb-4">
+              DGPS
+            </h1>
+            <p>
+              Delhi Gram Panchayat Sangh (DGPS) is dedicated to the all-round uplift of women, education, farmers, labourers, all class of people...
 
-<!-- FOOTER
-================================================== -->
-<div id="wrapfooter">
-    <div class="grid">
-        <div class="row" id="footer">
-            <!-- to top button  -->
-            <p class="back-top floatright">
-                <a href="#top"><span></span></a>
             </p>
-            <!-- 1st column -->
-            <div class="c3">
-                <img src="images/logo-footer.png" style="padding-top: 70px;" alt="">
+            <div class="d-flex pt-2">
+              <a class="btn btn-square me-1" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-square me-1" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              
             </div>
-            <!-- 2nd column -->
-            <div class="c3">
-                <h2 class="title"><i class="icon-link"></i>Links</h2>
-                <hr class="footerstress">
-                <ul>
-                    <li><a href="index.php" title="Home">Home</a></li>
-                    <li><a href="aboutus.php" title="About Us">About Us</a></li>
-                    <li><a href="visionmission.php" title="Vision / Mission">Vision / Mission</a></li>
-                    <li><a href="gallery.php" title="Gallery">Gallery</a></li>
-                    <li><a href="makeadonation.php" title="Make a Donation">Make a Donation</a></li>
-                    <li><a href="joinus.php" title="Online Membership">Online Membership</a></li>
-                    <li><a href="presidentmessage.php" title="President Message">President Message</a></li>
-                    <li><a href="newspaper.php" title="News Paper">News Paper</a></li>
-                    <li><a href="termsandconditions.php" title="Terms & Conditions">Terms & Conditions</a></li>
-                    <li><a href="privacypolicy.php" title="Privacy Policy">Privacy Policy</a></li>
-                    <li><a href="joinus.php" title="Contact Us">Contact Us</a></li>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Address</h5>
+            <p>
+              <i class="fa fa-map-marker-alt me-3"></i>RZ-239, Nangloi Saidan, Paschim Vihar, Delhi
+New Delhi - 110087
 
-                </ul>
-                
-            </div>
-            <!-- 3rd column -->
-            <div class="c3">
-                <h2 class="title"><i class="icon-envelope-alt"></i> Contact</h2>
-                <hr class="footerstress">
-                <dl>
-                    <dt>RZ-239, Nangloi Saidan, Paschim Vihar, Delhi</dt>
-                    <dt>New Delhi - 110087</dt>
-                    <dd><span>Telephone:</span> 9811 570 416</dd>
-                    <dd>E-mail: <a href="mailto:delhigrampanchayatsangh@gmail.com" title="delhigrampanchayatsangh@gmail.com">delhigrampanchayatsangh@gmail.com</a></dd>
-                    <dd>Web: <a href="#" target="_self" title="www.delhigrampanchayatsangh.com">www.delhigrampanchayatsangh.com</a></dd>
-                </dl>
-                <ul class="social-links" style="margin-top:15px;">
-                    <li class="twitter-link smallrightmargin">
-                    <a href="#" class="twitter has-tip" target="_blank" title="Follow Us on Twitter">Twitter</a>
-                    </li>
-                    <li class="facebook-link smallrightmargin">
-                    <a href="https://www.facebook.com/pages/Than-Singh-Yadav/1569241183321983" class="facebook has-tip" target="_blank" title="Join us on Facebook">Facebook</a>
-                    </li>
-                    <li class="google-link smallrightmargin">
-                    <a href="#" class="google has-tip" title="Google +" target="_blank">Google</a>
-                    </li>
-                    
-                </ul>
-            </div>
-            <!-- 4th column -->
-            <div class="c3">
-                <h2 class="title"><i class="icon-paper-clip"></i>Quick Contact</h2>
-                <hr class="footerstress">
-                 <form action="quickcontact.php" name="Mail_form" method="post" onSubmit="return Check();">
-                        <div class="form">
-                            <div class="c6 noleftmargin">
-                                <label>Name</label>
-                                <input type="text" name="name">
-                            </div>
-                            <div class="c6 noleftmargin">
-                                <label>E-mail address</label>
-                                <input type="text" name="email">
-                            </div>
-                            <label>Message</label>
-                            <textarea name="comment" class="ctextarea" rows="4"></textarea>
-                            <input type="submit" id="submit" class="button" style="font-size:12px;" value="SUBMIT">
-                        </div>
-                    </form>
-            </div>
-            <!-- end 4th column -->
+            </p>
+            <p><i class="fa fa-phone-alt me-3"></i>+91 9811 570 416</p>
+           
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Quick Links</h5>
+            <a class="btn btn-link" href="president.php">President Message</a>
+            <a class="btn btn-link" href="about.php">About Us</a>
+            <a class="btn btn-link" href="joinus">Join Us</a>
+            <a class="btn btn-link" href="newsection.php">News Section</a>
+            <a class="btn btn-link" href="ourmembers.php">Our Members</a>
+          </div>
+          
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Quick Links</h5>
+            <a class="btn btn-link" href="pressrelease.php">Press Release</a>
+            <a class="btn btn-link" href="termsconditions.php">Terms & Conditions</a>
+            <a class="btn btn-link" href="privacypolicy.php">Privacy Policy</a>
+            <a class="btn btn-link" href="contact.php">Contact Us</a>
+            
+          </div>
         </div>
-    </div>
-</div>
-<!-- copyright area -->
-<div class="copyright">
-    <div class="grid">
-        <div class="row">
-            <div class="c6">
-                 Delhi Gram Panchayat Sangh &copy; 2022 - 2023. All Rights Reserved.
+      </div>
+      <div class="container-fluid copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; 2022-23 <a href="#">Delhi Gram Panchayat Sangh</a>, All Right Reserved.
             </div>
-            <div class="c6">
-                <span class="right">
-                 </span>
-            </div>
+            
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<!-- END CONTENT AREA -->
-<!-- JAVASCRIPTS
-================================================== -->
-<!-- all -->
-<script src="js/modernizr-latest.js"></script>
+    <!-- Footer End -->
 
-<!-- menu & scroll to top -->
-<script src="js/common.js"></script>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
 
-<!-- slider -->
-<script src="js/jquery.cslider.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
 
-<!-- cycle -->
-<script src="js/jquery.cycle.js"></script>
-
-<!-- carousel items -->
-<script src="js/jquery.carouFredSel-6.0.3-packed.js"></script>
-
-<!-- twitter -->
-<script src="js/jquery.tweet.js"></script>
-
-<!-- Call Showcase - change 4 from min:4 and max:4 to the number of items you want visible -->
-<script type="text/javascript">
-$(window).load(function(){          
-            $('#recent-projects').carouFredSel({
-                responsive: true,
-                width: '100%',
-                auto: true,
-                circular    : true,
-                infinite    : false,
-                prev : {
-                    button      : "#car_prev",
-                    key         : "left",
-                        },
-                next : {
-                    button      : "#car_next",
-                    key         : "right",
-                            },
-                swipe: {
-                    onMouse: true,
-                    onTouch: true
-                    },
-                scroll : 2000,
-                items: {
-                    visible: {
-                        min: 4,
-                        max: 4
-                    }
-                }
-            });
-        }); 
-</script>
-
-<!-- Call opacity on hover images from carousel-->
-<script type="text/javascript">
-$(document).ready(function(){
-    $("img.imgOpa").hover(function() {
-      $(this).stop().animate({opacity: "0.6"}, 'slow');
-    },
-    function() {
-      $(this).stop().animate({opacity: "1.0"}, 'slow');
-    });
-  });
-</script>
-</body>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
