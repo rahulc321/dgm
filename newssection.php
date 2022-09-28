@@ -16,27 +16,51 @@
         </nav>
       </div>
     </div>
-    <!-- Page Header End -->
+     <!-- Service Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="text-center mx-auto" style="max-width: 500px">
+          <h1 class="display-6 mb-5">
+            Our News Section
+          </h1>
+        </div>
+        <div class="row g-4 justify-content-center">
 
-    <?php
+          <?php
           $ret=mysqli_query($conn,"select * from news order By id desc");
           $cnt=1;
-          $row=mysqli_fetch_array($ret);
+          while ($row=mysqli_fetch_array($ret)) {
 
           ?>
-    <!-- Features Start -->
-    <div class="container-xxl py-10">
-      <div class="container">
-        <div class="row g-10">
-          <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
-            <h1 class="display-6 mb-5"><?=$row['title']?></h1>
-            <img src="<?=IMG.$row['file']?>" alt=""  style="width: 100%;height: 500px;"/>
-            <p class="mb-4"><?=$row['description']?></p>            
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item rounded h-100 p-5">
+              <div class="d-flex align-items-center ms-n5 mb-4">
+                <div
+                  class="service-icon flex-shrink-0 bg-primary rounded-end me-4"
+                >
+                  <img
+                    class="img-fluid"
+                    src="img/icon/icon-news1.png"
+                    alt=""
+                  />
+                </div>
+                <h4 class="mb-0"><?=$row['title']?></h4>
+              </div>
+              <p class="mb-4"><?=substr_replace($row['description'],'...',150)?>
+              </p>
+              <a class="btn btn-light px-3" href="<?=$row['url']?>">Read More</a>
+            </div>
           </div>
+           
+           
+          <?php } ?>             
+                
+                
         </div>
       </div>
     </div>
-    <!-- Features End -->
+    <!-- Service End -->
 
 
  

@@ -38,7 +38,27 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </head>
+
+
+  <script type="text/javascript">
+// function googleTranslateElementInit() {
+//   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+// }
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en' , includedLanguages : 'en,hi'}, 'google_translate_element');
+  }
+</script>
+<style type="text/css">
+  .goog-logo-link {
+    display:none !important;
+} 
+    
+.goog-te-gadget{
+    color: transparent !important;
+}
+</style>
 
   <body>
     <!-- Spinner Start -->
@@ -68,6 +88,8 @@
             <small class="far fa-clock me-2"></small>
             <small>Mon - Sat : 09 AM - 08 PM</small>
           </div>
+
+
         </div>
         <div class="col-lg-5 px-5 text-end">
           <div class="h-100 d-inline-flex align-items-center">
@@ -76,8 +98,8 @@
             ></a>
             <a class="text-white-50 ms-4" href=""
               ><i class="fab fa-twitter"></i
-            ></a>
-            
+            ></a> &nbsp;&nbsp;
+            <div id="google_translate_element"></div>
           </div>
         </div>
       </div>
@@ -116,6 +138,7 @@
           <a href="pressrelease.php" class="nav-item nav-link">Press Release</a>
           <a href="contact.php" class="nav-item nav-link">Contact Us</a>
         </div>
+
       </div>
       
     </nav>

@@ -222,7 +222,7 @@
               </div>
               <p class="mb-4"><?=substr_replace($row['description'],'...',150)?>
               </p>
-              <a class="btn btn-light px-3" href="newssection.php?id=<?=$row['id']?>">Read More</a>
+              <a class="btn btn-light px-3" href="<?=$row['url']?>">Read More</a>
             </div>
           </div>
            
