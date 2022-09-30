@@ -25,14 +25,15 @@
                   <tr>
                      <th>S.NO</th>
                      <th>Name</th>
-                     <th>DOB</th>
+                     <th>Village</th>
+                     <th>District</th>
                      <th>City</th>
                      <th>State</th>
                      <th>Country</th>
                   </tr>
                </thead>
                <?php
-                  $ret=mysqli_query($conn,"select * from users where type=2");
+                  $ret=mysqli_query($conn,"select * from users where type=2 order By id desc");
                   $cnt=1;
                   while ($row=mysqli_fetch_array($ret)) {
                   
@@ -41,7 +42,8 @@
                   <tr>
                      <td><?php echo $cnt;?></td>
                      <td><?php  echo $row['firstName'];?></td>
-                     <td><?php  echo $row['dob'];?></td>
+                     <td><?php  echo $row['village'];?></td>
+                     <td><?php  echo $row['district'];?></td>
                      <td><?php  echo $row['city'];?></td>
                      <td><?php  echo $row['state'];?></td>
                      <td><?php  echo $row['country'];?></td>

@@ -3,7 +3,7 @@
 if(isset($_POST['submit']))
   {
    
-  $sql = "insert into users(firstName,email,phone,dob,type,state,city,country) values('".$_POST['name']."','".$_POST['email']."','".$_POST['phone']."','".$_POST['dob']."',2,'".$_POST['state']."','".$_POST['city']."','".$_POST['country']."')";
+  $sql = "insert into users(firstName,email,phone,dob,type,state,city,country,village,district,address) values('".$_POST['name']."','".$_POST['email']."','".$_POST['phone']."','".$_POST['dob']."',2,'".$_POST['state']."','".$_POST['city']."','".$_POST['country']."','".$_POST['village']."','".$_POST['district']."','".$_POST['address']."')";
   $query=mysqli_query($conn, $sql);
   if ($query) {
   $msg="You have successfully register, when admin will approve then you will list in users section";
@@ -56,7 +56,7 @@ if(isset($_POST['submit']))
                         class="form-control"
                         id="gname"
                         placeholder="Gurdian Name"
-                       name="name"/>
+                       name="name" required/>
                       <label for="gname">Your Name</label>
                     </div>
                   </div>
@@ -67,18 +67,18 @@ if(isset($_POST['submit']))
                         class="form-control"
                         id="gmail"
                         placeholder="Gurdian Email"
-                     name="email" />
+                     name="email" required />
                       <label for="gmail">Your Email</label>
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="form-floating">
                       <input
-                        type="text"
+                        type="number"
                         class="form-control"
                         id="cname"
                         placeholder="Child Name"
-                      name="phone" />
+                      name="phone" required maxlength="10"/>
                       <label for="cname">Your Mobile</label>
                     </div>
                   </div>
@@ -89,10 +89,11 @@ if(isset($_POST['submit']))
                         class="form-control"
                         id="cname"
                         placeholder="Child Name"
-                      name="dob" />
+                      name="dob"  required />
                       <label for="cname">DOB</label>
                     </div>
                   </div>
+                  
                   <div class="col-sm-6">
                     <div class="form-floating">
                       <input
@@ -100,10 +101,11 @@ if(isset($_POST['submit']))
                         class="form-control"
                         id="cage"
                         placeholder="Child Age"
-                     name="state" />
-                      <label for="cage">State</label>
+                     name="city" required />
+                      <label for="cage">City</label>
                     </div>
                   </div>
+
                   <div class="col-sm-6">
                     <div class="form-floating">
                       <input
@@ -111,8 +113,8 @@ if(isset($_POST['submit']))
                         class="form-control"
                         id="cage"
                         placeholder="Child Age"
-                     name="city" />
-                      <label for="cage">City</label>
+                     name="state" required />
+                      <label for="cage">State</label>
                     </div>
                   </div>
                    <div class="col-sm-6">
@@ -122,10 +124,48 @@ if(isset($_POST['submit']))
                         class="form-control"
                         id="cage"
                         placeholder="Child Age"
-                     name="country" />
+                     name="country" required />
                       <label for="cage">Country</label>
                     </div>
                   </div>
+
+                  <!--  -->
+                   <div class="col-sm-6">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="cage"
+                        placeholder="Child Age"
+                     name="village" required />
+                      <label for="cage">Village</label>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="cage"
+                        placeholder="Child Age"
+                     name="district" required />
+                      <label for="cage">District</label>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <div class="form-floating">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="cage"
+                        placeholder="Child Age"
+                     name="address" required />
+                      <label for="cage">Address</label>
+                    </div>
+                  </div>
+
                   <div class="col-12">
                     <div class="form-floating">
                       <textarea
