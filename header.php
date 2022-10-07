@@ -136,6 +136,7 @@ function googleTranslateElementInit() {
           <a href="newssection.php" class="nav-item nav-link">News Section</a>
           <a href="president.php" class="nav-item nav-link">President Message</a>
           <a href="pressrelease.php" class="nav-item nav-link">Press Release</a>
+          <a href="blog.php" class="nav-item nav-link">Blogs</a>
           <a href="contact.php" class="nav-item nav-link">Contact Us</a>
         </div>
 
