@@ -9,6 +9,8 @@
     <meta content="" name="description" />
 
     <!-- Favicon -->
+
+    
     <link href="img/favicon.ico" rel="icon" />
 
     <!-- Google Web Fonts -->
