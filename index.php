@@ -17,7 +17,7 @@
                       Work for DELHI and NCR. Delhi Gram Panchayat Sangh (DGPS) is dedicated to the all-round uplift of women, education, farmers, labourers, all class of people (poor, lower class...
                     </p>
                     <a href="about.html" class="btn btn-primary py-3 px-5"
-                      >More Details </a
+                      >More Details pr </a
                     >
                   </div>
                 </div>
